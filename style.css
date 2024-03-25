@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.avatar {
+    width: 150px;
+}
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(about_right.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #030303;
+    border-bottom: 6px solid #d8cefe;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #0ae8f8;
+}
+h3,h4,p{
+    background-color: #0ae8f8;
+    border-radius: 2px;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
